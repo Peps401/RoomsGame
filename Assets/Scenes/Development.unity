@@ -726,11 +726,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1248405285074396366, guid: a5b3584749f2dcd4692228eb15cd082d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.3
+      value: 0.372
       objectReference: {fileID: 0}
     - target: {fileID: 1248405285074396366, guid: a5b3584749f2dcd4692228eb15cd082d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.03
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 1248405285074396366, guid: a5b3584749f2dcd4692228eb15cd082d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -765,6 +765,10 @@ PrefabInstance:
       value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 5076336206927707628, guid: a5b3584749f2dcd4692228eb15cd082d, type: 3}
+      propertyPath: doorType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076336206927707628, guid: a5b3584749f2dcd4692228eb15cd082d, type: 3}
       propertyPath: adjacentDoor
       value: 
       objectReference: {fileID: 1731879189}
@@ -796,6 +800,7 @@ GameObject:
   - component: {fileID: 229899291}
   - component: {fileID: 229899297}
   - component: {fileID: 229899298}
+  - component: {fileID: 229899299}
   m_Layer: 0
   m_Name: Fall (32x32)
   m_TagString: SecondCharacter
@@ -968,6 +973,19 @@ MonoBehaviour:
   healthUiController: {fileID: 0}
   movementAllowed: 0
   secondCharacter: 0
+--- !u!114 &229899299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229899290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd437580fd66d945b15990d3ef5a629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondCharacter: {fileID: 1829263727}
 --- !u!1 &254794822
 GameObject:
   m_ObjectHideFlags: 0
@@ -4453,7 +4471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1248405285074396366, guid: a5b3584749f2dcd4692228eb15cd082d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.4
+      value: 0.416
       objectReference: {fileID: 0}
     - target: {fileID: 1248405285074396366, guid: a5b3584749f2dcd4692228eb15cd082d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5646,6 +5664,7 @@ GameObject:
   - component: {fileID: 1829263733}
   - component: {fileID: 1829263732}
   - component: {fileID: 1829263731}
+  - component: {fileID: 1829263734}
   m_Layer: 0
   m_Name: Main Character
   m_TagString: MainCharacter
@@ -5806,6 +5825,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.15223408, y: 0.21514621}
   m_EdgeRadius: 0
+--- !u!114 &1829263734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829263727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd437580fd66d945b15990d3ef5a629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondCharacter: {fileID: 229899290}
 --- !u!1 &1926523684
 GameObject:
   m_ObjectHideFlags: 0

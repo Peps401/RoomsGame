@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Spawnable
   - SecondCharacter
+  - Heart
   layers:
   - Default
   - TransparentFX

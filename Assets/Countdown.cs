@@ -40,6 +40,7 @@ public class Countdown : MonoBehaviour
     {
 
         timePassed += Time.deltaTime;
+        Debug.Log(isGameStarted);
         if(!isGameOver && isGameStarted){
             if (timePassed >= 1.0f)
             {

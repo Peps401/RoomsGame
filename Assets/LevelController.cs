@@ -123,7 +123,7 @@ public class LevelController : MonoBehaviour
             Debug.Log("Player collected enough collectibles to progress to the next level!");
         }
         else if(collectedHearts == 4){
-            SceneManager.LoadScene("Victory");
+            SceneManager.LoadScene("CarsLevel");
         }
     }
 

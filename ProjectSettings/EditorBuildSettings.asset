@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/NewLevel.unity
     guid: dc5d7e75a715f434dbe3bd6b90f8a989
   - enabled: 1
+    path: Assets/Scenes/CarsLevel.unity
+    guid: ffbd259511577ad4abd14217d5424c3f
+  - enabled: 1
     path: Assets/Scenes/Victory.unity
     guid: e192207d765aca34289828bdf13b66cf
   - enabled: 0
