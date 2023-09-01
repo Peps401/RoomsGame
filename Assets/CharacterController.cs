@@ -42,36 +42,6 @@ public class CharacterController : MonoBehaviour
     }
 
 
-    // Update is called once per frame
-    /*void Update()
-    {
-        if (movementAllowed)
-        {
-            Vector2 moveDirection = new Vector2(0.0f, 0.0f);
-            if (Input.GetKey(KeyCode.D))
-            {
-                moveDirection = new Vector2(1.0f, moveDirection.y);
-            }
-            if (Input.GetKey(KeyCode.A))
-            {
-                moveDirection = new Vector2(-1.0f, moveDirection.y);
-            }
-            if (Input.GetKey(KeyCode.S))
-            {
-                moveDirection = new Vector2(moveDirection.x, -1.0f);
-            }
-            if (Input.GetKey(KeyCode.W))
-            {
-                moveDirection = new Vector2(moveDirection.x, 1.0f);
-            }
-
-            if (moveDirection != currentMoveDirection)
-            {
-                currentMoveDirection = moveDirection;
-                rigidbody2D.velocity = moveDirection;
-            }
-        }
-    }*/
 
      private void Update()
     {
